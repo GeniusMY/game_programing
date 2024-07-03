@@ -9,6 +9,7 @@ int main()
 	float rectHeight = 20.0f;
 	float rectXpos = 10;
 	float rectYpos = 30;
+	float aa = 20;	
 
 	const int Object_num = 30;
 	sf::RectangleShape RectArray[Object_num];
@@ -39,7 +40,7 @@ int main()
 		{
 			window.draw(RectArray[i]);
 			float dx = RectArray[i].getPosition().x;
-			RectArray[i].setPosition(sf::Vector2f())
+			RectArray[i].setPosition(sf::Vector2f());
 		}
 		window.display();
 		
